@@ -1,0 +1,54 @@
+div.menuBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0 0rem;
+    /* gap: 3rem;     */
+}
+div.menuBar div.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  div.logo img{
+    width: 3rem;
+    height: 3rem;
+  }
+  div.logo p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+  }
+  div.menuBar div.mainMenu {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+div.menuBar div.mainMenu a{
+    color: #131118;
+}
+div.menuBar div.mainMenu a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+div.menuBar div.auMenu{
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem
+}
+div.menuBar div.auMenu span:hover {
+    background-color: rgb(78, 78, 177);
+    color: white;
+}
+div.menuBar div.auMenu button{
+    width: 8rem;
+    background-color: #131118;
+    color: white;
+}
+div.menuBar div.auMenu button:hover{
+    background-color: rgb(78, 78, 177);
+}

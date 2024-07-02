@@ -1,0 +1,97 @@
+div.footerBox {
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #131118;
+    padding: 2rem 8rem 0 3rem;
+    font-family: "Jost", sans-serif;
+}
+/* ------------------------------------------------------ */
+div.logoAndContact {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+div.logoAndContact div.logoFooter{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+div.logoAndContact div.logoFooter img{
+    width: 3rem;
+    height: 3rem;
+}
+div.logoAndContact div.logoFooter p{
+    width: 10rem;
+    color: white;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+div.logoAndContact div.contactFooter {
+    align-items: flex-start;
+    text-align: left;
+    color: #8f8f8f;
+}
+div.logoAndContact div.contactFooter p {
+    width: 15rem;
+    margin: 1rem 0 0 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem
+}
+
+/* ----------------------------------------------------- */
+div.infomation, div.service {
+    width: 7rem;
+    display: flex;
+    flex-direction: column; 
+    text-align: left;
+}
+div.infomation p, div.service p{
+    color: white;
+}
+div.infomation a, div.service a {
+    color: #8f8f8f;
+    margin-top: 0.5rem;
+}
+div.service {
+    width: 10rem;
+}
+
+/* ----------------------------------------------- */
+div.subscribe {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+div.subscribe p.p1{
+    color: white;
+}
+div.subscribe p.p2{
+    color: #8f8f8f;
+    margin: 0.5rem 0 1rem 0;
+}
+div.subscribe button{
+    width: 10rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+div.subscribe button:hover {
+    background-color: rgb(99, 99, 206);
+}
+div.subscribe a {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+div.subscribe a:hover{
+    background-color: rgb(99, 99, 206);
+    color: white;
+}

@@ -1,0 +1,126 @@
+div.menuBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0 0rem;
+    /* gap: 3rem;     */
+}
+div.menuBar div.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  div.logo img{
+    width: 3rem;
+    height: 3rem;
+  }
+  div.logo p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+  }
+  div.menuBar div.mainMenu {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+div.menuBar div.mainMenu a{
+    color: #131118;
+}
+div.menuBar div.mainMenu a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+div.menuBar div.auMenu{
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem
+}
+div.menuBar div.auMenu span:hover {
+    background-color: rgb(78, 78, 177);
+    color: white;
+}
+div.menuBar div.auMenu button{
+    width: 8rem;
+    background-color: #131118;
+    color: white;
+}
+div.menuBar div.auMenu button:hover{
+    background-color: rgb(78, 78, 177);
+}
+div.slideImage {
+    height: auto;
+    width: 80vw;
+    display: flex;
+    overflow: hidden;
+    margin-left: 10vw;
+    position: relative;
+    transition: transform 1s ease;
+}
+div.slideImage img{
+    width: 80vw;
+    
+}
+div.slideImage button.btnNext {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    color: #686868;
+}
+div.slideImage button.btnBack{
+    position: absolute;
+    top: 50%;
+    left:0;
+    background-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    color: #686868;
+}
+div.slideImage button:hover {
+    background-color: rgb(97, 97, 97,0.8);
+    color: #c9c9c9;
+}
+
+
+div.categoriesBox{
+    margin-left: 10vw;
+    margin-top: 3rem;
+    width: 80vw;
+}
+div.categoriesBox h1 {
+    width: 30rem;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+div.categoriesImg {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+div.categoriesImg img{
+    width: 15vw;
+}
+div.categoriesImg p{
+    position: relative;
+    bottom: 10vh;
+    left: 1vw;
+    background-color: white;
+    font-size: 1rem;
+    margin: 0;
+    width: 13vw;
+    height: 5vh;
+    border-radius: 8px;
+    padding: 1vh 0 0 0;
+}
