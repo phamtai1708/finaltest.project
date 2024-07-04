@@ -5,6 +5,7 @@ import Login from './Components/login'
 import Register from './Components/Register'
 import Forgotpassword from './Components/Forgotpassword'
 import Home from './Components/Home'
+import EnterOTP from './EnterOTP/EnterOTP'
 
 function App() {
   const aoPhongNam = [
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <Home></Home>
+      <EnterOTP></EnterOTP>
     </>
   )
 }

@@ -1,0 +1,73 @@
+.OTP_page{
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+}
+.OTP_page img{
+    width: 45vw;
+    height: 100vh;
+}
+.OTP_page .content{
+    width: 55vw;
+    background-color: white;
+    color: #131118;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.OTP_page .content .wrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.OTP_page .content .wrapper .back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.OTP_page .content .wrapper .back img{
+    width: 24px;
+    height: 24px;
+}
+.OTP_page .content .wrapper .back p{
+    font-size: 16px;
+    margin: 0;
+}
+.OTP_page .content .wrapper h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+.OTP_page .content .wrapper p{
+    color: #A7A19E;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 0;
+}
+.OTP_page .content .wrapper .otp{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 25px 0;
+}
+.OTP_page .content .wrapper .otp div{
+    width: 60px;
+    height: 60px;
+    border: 1px;
+    border-radius: 10px;
+    border-color: #131118;
+    border-style: solid;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.OTP_page .content .wrapper button{
+    width: 100%;
+}
