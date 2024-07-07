@@ -13,9 +13,9 @@ function Footer() {
                 <p>Tai - Thai</p>
             </div>
             <div className='contactFooter'>
-                <p><span class="material-symbols-outlined">phone_in_talk</span>0946.969.965</p>
-                <p><span class="material-symbols-outlined">mail</span>phamtai.tind46@gmail.com</p>
-                <p><span class="material-symbols-outlined">location_on</span>20.978241, 105.844396</p>
+                <p><span className="material-symbols-outlined">phone_in_talk</span>0946.969.965</p>
+                <p><span className="material-symbols-outlined">mail</span>phamtai.tind46@gmail.com</p>
+                <p><span className="material-symbols-outlined">location_on</span>20.978241, 105.844396</p>
             </div>
         </div>
         <div className='infomation'>
