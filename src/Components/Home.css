@@ -101,6 +101,7 @@ div.categoriesBox h1 {
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 3rem;
+    text-align: left;
 }
 div.categoriesImg {
     width: 80vw;
@@ -123,4 +124,26 @@ div.categoriesImg p{
     height: 5vh;
     border-radius: 8px;
     padding: 1vh 0 0 0;
+}
+div.bestSeller {
+    margin-left: 10vw;
+    margin-top: 1rem;
+    width: 80vw;
+}
+div.bestSeller h1 {
+    width: 30rem;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+div.bestSeller div.bestProductBox{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.xxx{
+    display: flex;
+    justify-content: center;
 }

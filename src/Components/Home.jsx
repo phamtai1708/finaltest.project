@@ -1,6 +1,9 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useContext } from 'react'
+import { ProductContext } from './ProductProvider';
 import MainMenu from './Mainmenu'
 import Footer from './Footer'
+import Card from './Card';
+import ProductInfo from './ProductInfo';
 import './Home.css'
 import logo2 from "../Data/logo2.png"
 import slide1 from "../Data/slide_1_img.jpg"
@@ -11,28 +14,25 @@ import vaynu from "../Data/vaynu.jpg"
 import treem from "../Data/treem.jpg"
 import phukien from "../Data/phukien.jpg"
 function Home() {
+  // ---------------------Slide
     const [index, setIndex] = useState(0);
     const slides = [slide1, slide3, slide4];
     useEffect(() => {
         const slideShow = setInterval(() => {
-            setIndex((prevIndex) => (prevIndex + 1) % 3);
-        }, 5000); // Thay đổi ảnh mỗi 1 giây
+            setIndex((prevIndex) => (prevIndex + 1) % slides.length);
+        }, 500000000); // Thay đổi ảnh mỗi 1 giây
 
         return () => clearInterval(slideShow);
-    }, 3);
+    }, [slides.length]);
+// Use Context hiện thị sản phẩm
+  const products = useContext(ProductContext);
+  const topProducts = [...products].sort((a, b) => b.volume - a.volume).slice(0, 8);
+  console.log(topProducts);
   return (
     <>
       <MainMenu/>
       <div className='slideImage' >
         <img src={slides[index]} alt="" />
-        {/* <img src={slide3} alt="" />
-        <img src={slide4} alt="" /> */}
-        {/* <button className='btnNext'>
-            <span class="material-symbols-outlined">arrow_forward_ios</span>
-        </button>
-        <button className='btnBack'>
-            <span class="material-symbols-outlined">arrow_back_ios</span>
-        </button> */}
       </div>
       < div className='categoriesBox'>
         
@@ -57,11 +57,15 @@ function Home() {
         </div>
       </div>
       <div className='bestSeller'>
-
+          <h1>Best-selling Product</h1>
+          <div className='bestProductBox'>
+          {topProducts.map((item)=>(
+            <Card item={item} key={item.id}  />))
+          }
+          </div>
       </div>
       <Footer/>
     </>
   )
 }
-1
 export default Home;

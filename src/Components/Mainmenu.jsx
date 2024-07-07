@@ -20,9 +20,9 @@ function MainMenu() {
           <a href="">Contact us</a>
         </div>
         <div className='auMenu'>
-            <span class="material-symbols-outlined">search</span>
-            <span class="material-symbols-outlined">favorite</span>
-            <span class="material-symbols-outlined">local_mall</span>
+            <span className="material-symbols-outlined">search</span>
+            <span className="material-symbols-outlined">favorite</span>
+            <span className="material-symbols-outlined">local_mall</span>
             <button className='btnLogin'>Login</button>
         </div>
       </div>
