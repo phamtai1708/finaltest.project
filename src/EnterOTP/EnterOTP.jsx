@@ -3,14 +3,17 @@ import App from "../App";
 import './EnterOTP.css'
 import LoginPop from "../Components/LoginPopup/LoginPop";
 
-const [crr, setCrr] = useState(null)
-let showPopup = null
-if (crr){
-    showPopup = <LoginPop onClose={()=> {setCrr(null)}}/>
-    console.log(crr)
-}
+
 
 const EnterOTP = () =>{
+
+    const [crr, setCrr] = useState(null)
+    let showPopup = null
+    if (crr){
+        showPopup = <LoginPop onClose={()=> {setCrr(null)}}/>
+        console.log(crr)
+    }
+
     return(
         <>
         <div className="OTP_page">
@@ -30,7 +33,7 @@ const EnterOTP = () =>{
                         <div></div>
                         <div></div>
                     </div>
-                    <button onClick={setCrr(true)}>Verify</button>
+                    <button onClick={() => {setCrr(true)} }>Verify</button>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ const LoginPop = (props) =>{
                 <img src="./checked.png" alt="" />
                 <h4>Password Changed Successfully</h4>
                 <p>Your password has been updated successfully</p>
-                <button onClick={props.onClose}>Click to login</button>
+                <button onClick={props.onClose}>Back to login</button>
             </div>
         </div>
         </>

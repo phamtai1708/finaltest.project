@@ -1,0 +1,43 @@
+.popup{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(101, 108, 133, 0.8);
+    position: fixed;
+    top: 0;
+}
+.popup .content{
+    position: relative;
+    width: 30vw;
+    height: 35%;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.popup .content img{
+    width: 60px;
+    height: 60px;
+   margin-bottom: 20px;
+}
+.popup .content h4{
+    font-size: 24px;
+    color: #131118;
+    font-weight: 700;
+    margin: 0;
+}
+.popup .content p{
+    font-size: 16px;
+    color: #131118;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.popup .content button{
+    width: 92%;
+    margin-top: 10px;
+}
