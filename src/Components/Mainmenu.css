@@ -4,6 +4,7 @@ div.menuBar {
     align-items: center;
     margin: 0;
     padding: 0 0rem;
+    background-color: #ffffff;
     /* gap: 3rem;     */
 }
 div.menuBar div.logo{
@@ -19,7 +20,7 @@ div.menuBar div.logo{
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 2px;
-    
+    color: #131118;
   }
   div.menuBar div.mainMenu {
     display: flex;
@@ -38,7 +39,8 @@ div.menuBar div.auMenu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0.5rem
+    gap: 0.5rem;
+    color: #131118;
 }
 div.menuBar div.auMenu span:hover {
     background-color: rgb(78, 78, 177);

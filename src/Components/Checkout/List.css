@@ -1,0 +1,68 @@
+.list_wrapper{
+    display: grid;
+    grid-template-columns: 300px 90px 100px 90px 30px;
+    /* grid-template-rows: 100px; */
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    width: 650px;
+    margin: none;
+}
+.list_wrapper .product{
+    display: flex;
+    gap: 10px;
+}
+.list_wrapper .product img{
+    width: 75px;
+    height: 75px;
+}
+.list_wrapper .product .name{
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list_wrapper .product .name p{
+    margin: 0;
+}
+.list_wrapper .price p{
+    margin: 0;
+    font-size: 16px;
+}
+.list_wrapper .quantity .button_wrap{
+    display: flex;
+    width: 100px;
+    background-color: white;
+    color: #131118;
+    align-items: center;
+    border: solid ;
+    border-radius: 10px;
+}
+.list_wrapper .quantity .button_wrap button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.list_wrapper .quantity .button_wrap button img{
+    width: 20px;
+    height: 20px;
+}
+.list_wrapper .quantity .button_wrap .number{
+    width: 40px;
+    margin: 0;
+}
+.list_wrapper .subtotal p{
+    font-size: 16px;
+    margin: 0;
+}
+.list_wrapper .cancel img{
+    width: 25px;
+    height: 25px;
+    color: red;
+}

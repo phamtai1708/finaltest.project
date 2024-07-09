@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import EnterOTP from './EnterOTP/EnterOTP.jsx'
 import Home from './Components/Home.jsx'
 import Checkout from './Checkout/Checkout.jsx'
+import ProductInfo from './Components/ProductInfo.jsx'
 
 
 
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Route path='/' element={<Home />}/>
     <Route path='/EnterOTP' element={< EnterOTP/>} />
     <Route path='/Checkout' element={<Checkout />}/>
+    <Route path="/product/:name" element={<ProductInfo />} />
   </Routes>
   </BrowserRouter>
 )
