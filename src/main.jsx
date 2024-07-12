@@ -12,6 +12,7 @@ import ProductInfo from './Components/ProductInfo.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  <ProductProvider>
   <BrowserRouter>
   <Routes>
     <Route path='/' element={<Home />}/>
@@ -20,4 +21,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Route path="/product/:name" element={<ProductInfo />} />
   </Routes>
   </BrowserRouter>
+  </ProductProvider>
 )

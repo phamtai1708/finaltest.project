@@ -22,7 +22,8 @@ div.imageProduct div.smaillImage {
     height: 10rem;
     overflow: hidden;
     display: flex;
-    gap: 0.5rem
+    gap: 0.5rem;
+    overflow-x: auto;
 }
 div.imageProduct div.smaillImage img{
     width: 10rem;
@@ -75,40 +76,67 @@ div.btnColor button{
     width: 2rem;
     height: 2rem;
     border-radius: 100%;
-    
 }
-button.colorId287{
-    background-color: #2B263C;
+div.quantity {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
-button.colorId432{
-    background-color: #E9E3E0;
+div.quantity span{
+    margin: 0;
 }
-button.colorId537{
-    background-color: #5B8086;
+div.quantity button{
+    height: 3rem;
 }
-button.colorId508{
-    background-color: #C5A4B7;
+div.quantity button.btnQuantity {
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-button.colorId518{
-    background-color: #C8A1B9;
+button.btnAddToCart {
+    width: 15rem;
+    background-color: #131118;
+    color: aliceblue;
 }
-button.colorId523{
-    background-color: #202F58;
+button.btnLove {
+    border: 1px solid #131118;
+} 
+button.btnBuyNow {
+    width: 29rem;
+    height: 3rem;
+    background-color: #FCAF17;
+    color: rgb(0, 0, 0);
 }
-button.colorId525{
-    background-color: #EB9092;
+div.descriptionProduct{
+text-align: left;
+padding-left: 10vw;
+position: relative;
 }
-button.colorId528{
-    background-color: #75a8bb;
+div.descriptionProduct button{
+width: 15rem;
+font-weight: bold;
 }
-button.colorId530{
-    background-color: #e2323e;
+div.descriptionBox{
+    margin-left: 10vw;
+    margin-top: 1rem;
+    width: 80vw;
+    height: 10rem;
+    border: 1px solid transparent;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
-button.colorId531{
-    background-color: #ffffff;
+div.relatedProduct {
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
-button.colorId532{
-    background-color: #2a282b;
+div.relatedProduct p.rl1{
+    font-size: 2rem;
+    text-align: left;
+}
+div.relatedProduct div.relatedBox {
+    display: flex;
+    justify-content: space-between;
 }
 
 

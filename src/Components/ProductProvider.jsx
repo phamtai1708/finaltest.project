@@ -14,6 +14,9 @@ const ProductProvider = ({ children }) => {
         const getDataAPI = async () => {
             try {
                 const response = await fetch("https://api.newfashion.com.vn/storefront-product/api/product/public/product-by-filter.json?page=1");
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 const productData = await response.json();
                 const productDetails =productData.items
                     .filter(item => item.images != null && item.sizes != null && item.min_variant_price !=null)
@@ -31,6 +34,7 @@ const ProductProvider = ({ children }) => {
                         volume: Math.floor(Math.random() * 91) + 10,
                     }                   
                 ));
+                console.log(response)
                 setProducts(productDetails);
             }catch(error){
                 console.error("erro",error);
