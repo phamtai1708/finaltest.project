@@ -1,9 +1,16 @@
 import { useState, useEffect } from 'react'
+import { useNavigate } from "react-router-dom";
 import './Mainmenu.css'
 import logo2 from "../Data/logo2.png"
 
 function MainMenu() {
-
+  const navigate = useNavigate();
+  const handClickLogin = () => {
+    navigate(`/Login`);
+  };
+  const handClickSearch = () => {
+    navigate(`/Search`);
+  };
   return (
     <>
       <div className='menuBar'>
@@ -20,10 +27,10 @@ function MainMenu() {
           <a href="">Contact us</a>
         </div>
         <div className='auMenu'>
-            <span className="material-symbols-outlined">search</span>
+            <span className="material-symbols-outlined" onClick={handClickSearch}>search</span>
             <span className="material-symbols-outlined">favorite</span>
             <span className="material-symbols-outlined">local_mall</span>
-            <button className='btnLogin'>Login</button>
+            <button className='btnLogin' onClick={handClickLogin}>Login</button>
         </div>
       </div>
     </>

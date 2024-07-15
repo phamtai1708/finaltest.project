@@ -1,94 +1,103 @@
-div.loginBox{
+div.loginBox {
     max-width: 1440px;
     display: flex;
     align-items: center;
     gap: 2rem;
     font-family: "Jost", sans-serif;
-}
-div.imageLogin img{
+    position: relative;
+    top: 5rem;
+    left: 20%;
+  }
+  div.imageLogin img {
     width: 20rem;
-}
-div.detailsLoginBox{
+  }
+  div.detailsLoginBox {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
-div.detailsLoginBox h1{
+  }
+  div.detailsLoginBox h1 {
     margin: 0;
     font-size: 2rem;
     font-weight: bold;
     line-height: auto;
     padding: 0.2rem 0;
-}
-div.detailsLoginBox p{
-    color: rgb(161, 167, 170,100%);
+  }
+  div.detailsLoginBox p {
+    color: rgb(161, 167, 170, 100%);
     font-size: 1rem;
     margin: 0;
     padding: 0.2rem 0;
-}
-div.detailsLoginBox label{
+  }
+  div.detailsLoginBox label {
     font-size: 0.8rem;
     color: #131118;
     margin-top: 1rem;
-}
-div.detailsLoginBox input{
+  }
+  div.detailsLoginBox input {
     width: 18rem;
     height: 2rem;
     border: 1px solid #131118;
     border-radius: 10px;
-}
-div.detailsLoginBox div.checkForm {
+  }
+  div.detailsLoginBox div.checkForm {
     width: 18rem;
     margin-top: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-div.detailsLoginBox div.checkForm div.checkcheck{
+  }
+  div.detailsLoginBox div.checkForm div.checkcheck {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0.5rem
-}
-div.detailsLoginBox div.checkForm div.checkcheck label{
+    gap: 0.5rem;
+  }
+  div.detailsLoginBox div.checkForm div.checkcheck label {
     margin: 0;
-}
-div.detailsLoginBox div.checkForm div.checkcheck label:hover{
+  }
+  div.detailsLoginBox div.checkForm div.checkcheck label:hover {
     font-weight: bold;
     text-decoration: underline;
-}
-div.detailsLoginBox div.checkForm div.checkcheck input.checkBox{
+  }
+  div.detailsLoginBox div.checkForm div.checkcheck input.checkBox {
     width: 1rem;
     height: 1rem;
     margin: 0;
     background-color: #131118;
-}
-div.detailsLoginBox div.checkForm p{
+  }
+  div.detailsLoginBox div.checkForm p {
     font-size: 0.8rem;
     color: #131118;
     font-weight: regular;
-}
-div.detailsLoginBox div.checkForm p:hover{
+  }
+  div.detailsLoginBox div.checkForm p:hover {
     text-decoration: underline;
     font-weight: bold;
-}
-div.detailsLoginBox button{
+  }
+  div.detailsLoginBox button {
     width: 18rem;
     background-color: #131118;
     color: white;
     margin-top: 0.5rem;
-}
-div.detailsLoginBox p.registerText {
+  }
+  div.detailsLoginBox p.registerText {
     color: #131118;
     font-size: 0.8rem;
     margin-top: 1rem;
     position: relative;
     left: 3rem;
-}
-div.detailsLoginBox p.registerText a{
+  }
+  div.detailsLoginBox p.registerText button {
     margin-left: 1rem;
-}
-div.detailsLoginBox p.registerText a:hover{
+    padding: 0.5rem 1rem;
+    width: 7rem;
+    background-color: transparent;
+    color: #0d00ff;
+    border: none;
+  }
+  div.detailsLoginBox p.registerText button:hover {
     font-weight: bold;
-    color: #131118;
-}
+    background-color: #131118;
+    color: #ffffff;
+  }

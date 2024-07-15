@@ -9,9 +9,9 @@ import Home from './Components/Home.jsx'
 import Checkout from './Checkout/Checkout.jsx'
 import ProductInfo from './Components/ProductInfo.jsx'
 import ScrollToTop from './Components/ScrollToTop.jsx'
-import Login from './Components/login.jsx'
+import Login from './Components/Login.jsx'
 import Register from './Components/Register.jsx'
-
+import Search from './Components/Search.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ProductProvider>
@@ -19,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <ScrollToTop />
   <Routes>
     <Route path='/' element={<Home />}/>
+    <Route path='/Search' element={<Search/>} />
     <Route path='/Login' element={< Login/>} />
     <Route path='/Register' element={< Register/>} />
     <Route path='/EnterOTP' element={< EnterOTP/>} />
