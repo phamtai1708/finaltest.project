@@ -1,0 +1,64 @@
+.tag{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafb;
+    width: 300px;
+    margin: 10px;
+}
+.tag .above{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.tag .above input{
+    margin: 0;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    accent-color: black;
+    color: white;
+}
+.tag .above .info{
+    text-align: left;
+    width: 250px;
+}
+.tag .above .info h4{
+    margin: 10px;
+    font-size: 20px;
+}
+.tag .above .info p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.tag .below{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.tag .below .edit{
+    width: 125px;
+    height: 50px;
+    background-color: #f1f1f3;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.tag .below .delete{
+    width: 125px;
+    height: 50px;
+    background-color: #f1f1f3;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.tag .below svg{
+    width: 20px;
+    height: 20px;
+}

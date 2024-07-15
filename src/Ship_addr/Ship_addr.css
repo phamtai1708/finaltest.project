@@ -1,0 +1,37 @@
+.shipPage{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    padding: 50px 90px;
+}
+.shipPage .content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color: #131118;
+}
+.shipPage .content h2{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.shipPage .content .chart .address .imgholder{
+    background-color: #131118;
+}
+.shipPage .content .chart .address .imgholder .home{
+    fill: white;
+}
+.shipPage .content p{
+    margin: 0;
+    text-align: left;
+}
+.shipPage .content .cardHolder{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shipPage .content .deli{
+    width: 300px;
+    margin: 10px;
+}

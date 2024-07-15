@@ -1,0 +1,63 @@
+.cashier{
+    width: 330px;
+    padding: 10px;
+    /* border: 1px;
+    border-style: groove; */
+    color: #131118;
+}
+.cashier .subtotal{
+    display: flex;
+    justify-content: space-between
+}
+.cashier .subtotal h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.cashier .discount{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.cashier .discount p{
+    margin-bottom: 0;
+}
+.cashier .discount .code{
+    width: 320px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.cashier .discount .code input{
+    width: 200px;
+    background-color: white;
+    color: #131118;
+    border: 1px black;
+    border-style: solid;
+    height: 50px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400px;
+    font-variant: small-caps;
+    padding-left: 20px;
+}
+.cashier .discount .code button{
+    height: 54px;
+    width: 100px;
+    border-radius: 0 ;
+}
+.cashier .delivery{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    margin-bottom: 10px;
+}
+.cashier .total{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    margin-bottom: 10px;
+}
+.cashier .total h2{
+    font-size: 20px;
+    font-weight: 700;
+}

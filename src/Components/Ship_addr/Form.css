@@ -1,0 +1,36 @@
+form{
+    width: 750px;
+    text-align: left;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-bottom: 20px;
+}
+form div input{
+    width: 700px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid black;
+    outline: none;
+    color: black;
+    padding-left: 10px;
+}
+form div.default{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    width: 700px;
+}
+form .default input{
+    width: 20px;
+    height: 20px;
+    accent-color: black;
+    color: white;
+}
+form button{
+    width: 300px;
+    font-size: 20px;
+}
