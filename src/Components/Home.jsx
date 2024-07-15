@@ -3,7 +3,8 @@ import { ProductContext } from './ProductProvider';
 import MainMenu from './Mainmenu'
 import Footer from './Footer'
 import Card from './Card';
-import ProductInfo from './ProductInfo';
+import ServiceBox from './ServiceBox.jsx';
+import ProductInfo from './ProductInfo.jsx';
 import './Home.css'
 import logo2 from "../Data/logo2.png"
 import slide1 from "../Data/slide_1_img.jpg"
@@ -20,14 +21,14 @@ function Home() {
     useEffect(() => {
         const slideShow = setInterval(() => {
             setIndex((prevIndex) => (prevIndex + 1) % slides.length);
-        }, 500000000); // Thay đổi ảnh mỗi 1 giây
+        }, 50000); // Thay đổi ảnh mỗi 1 giây
 
         return () => clearInterval(slideShow);
     }, [slides.length]);
 // Use Context hiện thị sản phẩm
+
   const products = useContext(ProductContext);
   const topProducts = [...products].sort((a, b) => b.volume - a.volume).slice(0, 8);
-  console.log(topProducts);
   return (
     <>
       <MainMenu/>
@@ -64,6 +65,7 @@ function Home() {
           }
           </div>
       </div>
+      <ServiceBox/>
       <Footer/>
     </>
   )

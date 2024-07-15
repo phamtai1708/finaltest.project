@@ -1,0 +1,17 @@
+div.optionService {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    text-align: left;
+    
+}
+div.optionService p.os1{
+    font-weight: bold;
+    margin: 0.2rem 0;
+}
+div.optionService p{
+    margin: 0.2rem 0;
+}

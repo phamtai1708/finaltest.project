@@ -1,74 +1,75 @@
 div.registerPage {
     display: flex;
     align-items: center;
-    gap: 2rem
-    
-}
-div.imageRegister img {
+    gap: 2rem;
+    position: relative;
+    top: 5rem;
+    left: 20%;
+  }
+  div.imageRegister img {
     width: 25rem;
-}
-div.registerBox {
+  }
+  div.registerBox {
     display: flex;
     flex-direction: column;
     font-family: "Jost", sans-serif;
-}
-div.registerBox div.createNewAcc {
+  }
+  div.registerBox div.createNewAcc {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
-}
-div.registerBox div.createNewAcc p.p1{
+  }
+  div.registerBox div.createNewAcc p.p1 {
     font-size: 1.5rem;
     font-weight: bold;
     line-height: auto;
     margin: 0;
     color: #131118;
-}
-div.registerBox div.createNewAcc p.p2{
+  }
+  div.registerBox div.createNewAcc p.p2 {
     margin: 0;
-    color: #A4A1AA;
+    color: #a4a1aa;
     font-size: 1rem;
-}
-div.registerBox div.newAccDetails {
+  }
+  div.registerBox div.newAccDetails {
     display: flex;
     flex-direction: column;
-}
-div.registerBox div.newAccDetails div.listDetails {
+  }
+  div.registerBox div.newAccDetails div.listDetails {
     gap: 1rem;
-}
-div.registerBox div.newAccDetails div.listDetails div.listInfo {
+  }
+  div.registerBox div.newAccDetails div.listDetails div.listInfo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 1.5rem;
-}
-div.registerBox div.newAccDetails div.listDetails div.listInfo label{
+  }
+  div.registerBox div.newAccDetails div.listDetails div.listInfo label {
     font-size: 0.8rem;
     font-weight: Regular;
     color: #131118;
-}
-div.registerBox div.newAccDetails div.listDetails div.listInfo input{
+  }
+  div.registerBox div.newAccDetails div.listDetails div.listInfo input {
     width: 18rem;
     height: 2rem;
     border: 1px solid #131118;
     border-radius: 10px;
     padding: 0 1rem;
     margin-bottom: 1rem;
-}
-div.termBox {
+  }
+  div.termBox {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-}
-div.termBox a:hover {
+  }
+  div.termBox a:hover {
     font-weight: bold;
     color: #131118;
-}
-div.newAccDetails button {
+  }
+  div.newAccDetails button {
     color: white;
     background-color: #131118;
     font-size: 0.8rem;
     padding: 0.8rem 2rem;
     margin-top: 1.5rem;
-}
+  }

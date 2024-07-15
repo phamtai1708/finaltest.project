@@ -1,11 +1,21 @@
-.topProductBox{
+div.topProductBox{
     width: 18vw;
+    /* height: 20rem; */
     margin-bottom: 2rem;
 }
-img {
+div.imgBox{
     width: 18vw;
+    height: 22rem;
+    align-items: center;
+    position: relative;
 }
-p.nameProduct {
+div.imgBox img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    object-position: center; 
+}
+div.topProductBox p.nameProduct {
     font-size: 0.8rem;
     width: 18vw;
     height: 1.2rem;
@@ -16,24 +26,24 @@ p.nameProduct {
     margin: 0;
     align-items: center;
 }
-p.category{
+div.topProductBox p.category{
     margin: 0;
     font-size: 0.8rem;
     text-align: left;
     margin: 0.5rem 0 0.5rem 0;
 }
-div.price{
+div.topProductBox div.price{
     display: flex;
     gap: 0
 }
-p.minPrice{
+div.topProductBox p.minPrice{
     margin: 0;
     font-size: 1rem;
     font-weight: bold;
     text-align: left;
     padding-top: 0.5rem;
 }
-p.maxPrice{
+div.topProductBox p.maxPrice{
     width: 8vw;
     margin: 0;
     font-size: 0.8rem;

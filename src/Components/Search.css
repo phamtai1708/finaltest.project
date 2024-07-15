@@ -1,0 +1,74 @@
+div.boxProductSearch {
+  display: flex;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  gap: 3rem;
+}
+div.filterMenu {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+div.filterMenu label {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+div.filterMenu input.ip1 {
+  width: 18rem;
+  height: 2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+div.filterMenu button.btnFilterSearch {
+  background-color: black;
+  color: white;
+  margin-top: 1rem;
+}
+/* -------------Css cho Filter by Category */
+
+div.boxSearchProductCategories {
+  display: flex;
+  flex-direction: column;
+}
+div.boxSearchProductCategories p.cl1 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+div.listCategory {
+  display: flex;
+  gap: 1rem;
+}
+div.listCategory p {
+  margin: 0.2rem 0;
+}
+/* -------------Css cho Filter by Color */
+div.boxSearchProductColor {
+  display: flex;
+  flex-direction: column;
+}
+div.boxSearchProductColor p.cl1 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+div.listColor {
+  display: flex;
+  gap: 1rem;
+  margin: 0.2rem 0;
+}
+div.listColor p {
+  margin: 0.2rem 0 0.2rem 3rem;
+}
+div.listColor button {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  border-radius: 0;
+  border: 1px solid black;
+}
+/* --------------CSS cho phần hiển thị sản phẩm sau Filter */
+div.productFilter {
+  display: flex;
+  flex-wrap: wrap;
+}

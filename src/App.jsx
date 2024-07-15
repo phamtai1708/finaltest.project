@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import logo2 from "./Data/logo2.png"
-import Login from './Components/login'
+import Login from './Components/Login.jsx'
 import Register from './Components/Register'
 import Forgotpassword from './Components/Forgotpassword'
 import Home from './Components/Home'
