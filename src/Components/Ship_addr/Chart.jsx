@@ -11,12 +11,12 @@ const Chart = () =>{
                     <p>Address</p>
                 </div>
                 <svg className="line" width="125" height="50"><path d="M 0 25 L 200 25"  stroke-width="2" /></svg>
-                <div className="payment">
+                <div className="pay">
                     <div className="imgholder"><svg className="credit" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M64 32C28.7 32 0 60.7 0 96v32H576V96c0-35.3-28.7-64-64-64H64zM576 224H0V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V224zM112 352h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16H368c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16z"/></svg></div>
                     <p>Payment Method</p>
                 </div>
                 <svg className="line" width="125" height="50"><path d="M 0 25 L 200 25"  stroke-width="2" /></svg>
-                <div className="review">
+                <div className="re">
                     <div className="imgholder"><svg className="note" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 80v48c0 17.7 14.3 32 32 32H48 96V80c0-26.5-21.5-48-48-48S0 53.5 0 80zM112 32c10 13.4 16 30 16 48V384c0 35.3 28.7 64 64 64s64-28.7 64-64v-5.3c0-32.4 26.3-58.7 58.7-58.7H480V128c0-53-43-96-96-96H112zM464 480c61.9 0 112-50.1 112-112c0-8.8-7.2-16-16-16H314.7c-14.7 0-26.7 11.9-26.7 26.7V384c0 53-43 96-96 96H368h96z"/></svg></div>
                     <p>Review</p>
                 </div>

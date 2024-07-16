@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
 }
-.chart .payment{
+.chart .pay{
     background-color: white;
     color: #131118;
     width: 200px;
@@ -48,7 +48,7 @@
     align-items: center;
     justify-content: center;
 }
-.chart .payment .imgholder{
+.chart .pay .imgholder{
     width: 50px;
     height: 50px;
     padding: 10px;
@@ -56,18 +56,18 @@
     margin-top: 10px;
     border-radius: 10px;
 }
-.chart .payment .imgholder .credit{
+.chart .pay .imgholder .credit{
     width: 50px;
     height: 50px;
     fill: #131118;
 }
-.chart .payment p{
+.chart .pay p{
     font-size: 24px;
     font-weight: 400;
     margin: 0;
     margin-top: 15px;
 }
-.chart .review{
+.chart .re{
     background-color: white;
     color: #131118;
     width: 100px;
@@ -76,7 +76,7 @@
     align-items: center;
     justify-content: center;
 }
-.chart .review .imgholder{
+.chart .re .imgholder{
     width: 50px;
     height: 50px;
     padding: 10px;
@@ -84,12 +84,12 @@
     margin-top: 10px;
     border-radius: 10px;
 }
-.chart .review .imgholder .note{
+.chart .re .imgholder .note{
     width: 50px;
     height: 50px;
     fill: #131118;
 }
-.chart .review p{
+.chart .re p{
     font-size: 24px;
     font-weight: 400;
     margin: 0;
