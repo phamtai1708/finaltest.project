@@ -1,3 +1,7 @@
+#root{
+    background-color: white;
+    color: #131118;
+}
 div.menuBar {
     display: flex;
     justify-content: space-around;
@@ -21,7 +25,7 @@ div.menuBar div.logo{
     letter-spacing: 2px;
     
   }
-  div.menuBar div.mainMenu {
+div.menuBar div.mainMenu {
     display: flex;
     justify-content: space-between;
     gap: 1.5rem;

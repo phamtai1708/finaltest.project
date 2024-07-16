@@ -1,10 +1,10 @@
 import { useState, useEffect, useContext } from 'react'
-import { ProductContext } from './ProductProvider';
-import MainMenu from './Mainmenu'
-import Footer from './Footer'
-import Card from './Card';
-import ServiceBox from './ServiceBox.jsx';
-import ProductInfo from './ProductInfo.jsx';
+import { ProductContext } from '../Components/ProductProvider.jsx';
+import MainMenu from '../Components/Mainmenu.jsx';
+import Footer from '../Components/Footer.jsx';
+import Card from '../Components/Card.jsx';
+import ServiceBox from '../Components/ServiceBox.jsx';
+import ProductInfo from '../ProductInfo/ProductInfo.jsx';
 import './Home.css'
 import logo2 from "../Data/logo2.png"
 import slide1 from "../Data/slide_1_img.jpg"

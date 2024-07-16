@@ -1,13 +1,13 @@
 import { useState, useEffect, useContext } from 'react'
-import { ProductContext } from './ProductProvider';
+import { ProductContext } from '../Components/ProductProvider.jsx';
 import './ProductInfo.css'
-import './Color.css'
+import '../Components/Color.css'
 import React from 'react';
 import { useLocation, useParams } from 'react-router-dom';
-import Mainmenu from './Mainmenu.jsx'
-import Card from './Card.jsx';
-import Footer from './Footer.jsx'
-import ServiceBox from './ServiceBox.jsx';
+import MainMenu from '../Components/Mainmenu.jsx';
+import Card from '../Components/Card.jsx';
+import Footer from '../Components/Footer.jsx';
+import ServiceBox from '../Components/ServiceBox.jsx';
 function ProductInfo() {
   const { name } = useParams();
   const location = useLocation();

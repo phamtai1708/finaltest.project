@@ -20,6 +20,8 @@ div.filterMenu input.ip1 {
   padding: 0.2rem 0.5rem;
   border-radius: 8px;
   border: 1px solid black;
+  color: black;
+  background-color: white;
 }
 div.filterMenu button.btnFilterSearch {
   background-color: black;

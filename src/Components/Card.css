@@ -14,6 +14,7 @@ div.imgBox img {
     height: auto;
     object-fit: cover; 
     object-position: center; 
+    height: 350px;
 }
 div.topProductBox p.nameProduct {
     font-size: 0.8rem;
