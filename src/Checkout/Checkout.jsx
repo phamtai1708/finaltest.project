@@ -3,6 +3,7 @@ import MainMenu from "../Components/Mainmenu";
 import Footer from "../Components/Footer";
 import './Checkout.css'
 import List from "../Components/Checkout/List";
+import Cashier from "../Components/Cashier/Cashier";
 import { useContext } from "react";
 import { ProductContext } from "../Components/ProductProvider";
 
@@ -25,30 +26,11 @@ const Checkout = () =>{
                     </div>
                     <List />
                 </div>
-                <div className="cashier">
-                    <div className="subtotal">
-                        <h2>Subtotal</h2>
-                        <h2>$200.00</h2>
-                    </div>
-                    <hr />
-                    <div className="discount">
-                        <p>Enter Discount Code</p>
-                        <div className="code">
-                            <input type="text" />
-                            <button>Apply</button>
-                        </div>
-                        <div className="delivery">
-                            <p>Delivery Charge</p>
-                            <p>$5.00</p>
-                        </div>
-                    </div>
-                    <hr />
-                    <div className="total">
-                        <h2>Grand Total</h2>
-                        <h2>$205.00</h2>
-                    </div>
+                <div className="cashier_wrap">
+                    <Cashier></Cashier>
                     <button>Proceed to checkout</button>
                 </div>
+                
             </div>
         </div>
         <Footer></Footer>

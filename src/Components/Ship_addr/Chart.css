@@ -1,0 +1,97 @@
+.chart{
+    width: 650px;
+    background-color: white;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.chart .address{
+    background-color: white;
+    color: #131118;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chart .address .imgholder{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: #f6f6f6;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.chart .address .imgholder .home{
+    width: 50px;
+    height: 50px;
+    fill: #131118;
+}
+.chart .address p{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 15px;
+}
+.chart .line{
+    stroke: #f6f6f6;
+    display: flex;
+    align-items: center;
+}
+.chart .pay{
+    background-color: white;
+    color: #131118;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chart .pay .imgholder{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: #f6f6f6;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.chart .pay .imgholder .credit{
+    width: 50px;
+    height: 50px;
+    fill: #131118;
+}
+.chart .pay p{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 15px;
+}
+.chart .re{
+    background-color: white;
+    color: #131118;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chart .re .imgholder{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: #f6f6f6;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.chart .re .imgholder .note{
+    width: 50px;
+    height: 50px;
+    fill: #131118;
+}
+.chart .re p{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 15px;
+}

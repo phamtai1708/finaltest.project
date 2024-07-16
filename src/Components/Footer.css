@@ -3,8 +3,9 @@ div.footerBox {
     display: flex;
     justify-content: space-between;
     background-color: #131118;
-    padding: 2rem 8rem 0 3rem;
+    padding: 50px 8px;
     font-family: "Jost", sans-serif;
+    width: 1264px;
 }
 /* ------------------------------------------------------ */
 div.logoAndContact {
