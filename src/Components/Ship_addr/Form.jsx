@@ -1,11 +1,10 @@
 import { useFormik } from "formik";
-import { v4 as uuidv4 } from 'uuid';
 import './Form.css'
 
 const Form = (props) =>{
   const formik = useFormik({
     initialValues: {
-        key: uuidv4(),
+        key: Math.random(),
         Name: "",
         Mobile: "",
         Flat: "",
