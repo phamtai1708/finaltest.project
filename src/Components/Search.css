@@ -1,6 +1,6 @@
 div.boxProductSearch {
   display: flex;
-  margin-left: 10rem;
+  margin-left: 5rem;
   margin-top: 5rem;
   gap: 3rem;
 }
@@ -71,4 +71,5 @@ div.listColor button {
 div.productFilter {
   display: flex;
   flex-wrap: wrap;
+  gap: 01rem;
 }
