@@ -1,8 +1,8 @@
 .cashier{
     width: 330px;
     padding: 10px;
-    /* border: 1px;
-    border-style: groove; */
+    border: 1px;
+    border-style: groove;
     color: #131118;
 }
 .cashier .subtotal{

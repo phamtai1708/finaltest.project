@@ -4,7 +4,7 @@ import './Form.css'
 const Form = (props) =>{
   const formik = useFormik({
     initialValues: {
-        key: uuidv4(),
+        key: Math.random(),
         Name: "",
         Mobile: "",
         Flat: "",

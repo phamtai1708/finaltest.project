@@ -14,6 +14,7 @@ import Login from './Login/Login.jsx'
 import Register from './Register/Register.jsx'
 import Search from './Search/Search.jsx'
 import Payment from './Payment Method/Payment.jsx'
+import Summary from './Order_summary/Summary.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ProductProvider>
@@ -28,6 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Route path='/Checkout' element={<Checkout />}/>
     <Route path='/Shipping_address' element={< Ship_addr />} />
     <Route path='/Payment' element={<Payment />}/>
+    <Route path='/Order_summary' element={<Summary />} />
     <Route path="/product/:name" element={<ProductInfo />} />
   </Routes>
   </BrowserRouter>

@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React, { createContext, useState } from "react";
 import MainMenu from "../Components/Mainmenu";
 import Footer from "../Components/Footer";
 import './Ship_addr.css'
 import Cashier from "../Components/Cashier/Cashier";
-import { useContext } from "react";
-import { ProductContext } from "../Components/ProductProvider";
 import Chart from "../Components/Ship_addr/Chart";
 import Tag from "../Components/Ship_addr/Tag";
 import Form from "../Components/Ship_addr/Form";
@@ -12,6 +10,7 @@ import Form from "../Components/Ship_addr/Form";
 const Ship_addr = () =>{
 
     const [address, setAddress] = useState([])
+
      
     //Xóa thẻ Address
     const handleDelete = (e) => {
@@ -30,7 +29,6 @@ const Ship_addr = () =>{
         setAddress(newAdd)
     }
     console.log(address)
-
     
     return(
         <>
