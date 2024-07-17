@@ -11,7 +11,7 @@ const Form = (props) =>{
         CVV: "",
     },
     onSubmit: (values) => {
-      props.handleAddress(values);
+      props.handlePayment(values);
     }
   });
 

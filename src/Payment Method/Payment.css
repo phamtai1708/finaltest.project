@@ -33,15 +33,20 @@
     fill: white;
 }
 .payment .content .debit{
-    text-align: left
+    padding-bottom: 20px;
+    text-align: left;
+    border-bottom: #131118 solid 0.5px;
+    margin-top: 20px;
 }
 .payment .content .debit .dCard{
     margin: 10px 0;
     margin-bottom: 20px;
     width: 20px;
     height: 20px;
-   
+   accent-color: black;
 }
-.payment .content .debit label{
+.payment .content .debit{
     font-size: 20px;
+    margin: 20px 0;
+    font-weight: 700;
 }

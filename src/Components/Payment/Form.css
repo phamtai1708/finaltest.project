@@ -1,6 +1,7 @@
 form{
     width: 750px;
     text-align: left;
+    margin-top: 20px;
 }
 form div{
     display: flex;

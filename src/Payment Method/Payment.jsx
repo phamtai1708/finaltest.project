@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import './Payment.css'
 import MainMenu from "../Components/Mainmenu";
 import Footer from "../Components/Footer";
@@ -8,6 +8,24 @@ import Form from "../Components/Payment/Form";
 
 
 const Payment = ()=>{
+
+    const [payment, setPayment] = useState([])
+    
+    const checked = {
+        debit: true,
+        cash: false,
+    }
+
+    const [check, setCheck] = useState(checked)
+    
+    //Thêm thẻ payment
+    const handlePayment = (data)=>{
+        const newPay = [...payment]
+        newPay.push(data)
+        setPayment(newPay)
+    }
+    console.log(payment)
+
     return(
     <>
         <MainMenu></MainMenu>
@@ -15,11 +33,9 @@ const Payment = ()=>{
             <div className="content">
                 <h2>Payment Method</h2>
                 <Chart></Chart>
-                <h3>Select a payment method</h3>
                 <div className="debit">
-                    <input type="radio" name="debit" id="" className="dCard" />
-                    <label htmlFor="debit">Debit/Credit Card</label>
-                    <Form></Form>
+                    <label className="label">Debit/Credit Card</label>
+                    <Form handlePayment={handlePayment}></Form>
                 </div>
             </div>
             <Cashier></Cashier>
