@@ -6,6 +6,7 @@ import Cashier from "../Components/Cashier/Cashier";
 import Chart from "../Components/Ship_addr/Chart";
 import Tag from "../Components/Ship_addr/Tag";
 import Form from "../Components/Ship_addr/Form";
+import { Link } from "react-router-dom";
 
 const Ship_addr = () =>{
 
@@ -44,7 +45,7 @@ const Ship_addr = () =>{
                     return <Tag address={add} handleDelete={handleDelete}></Tag> 
                 })}
                 </div>
-                <button className="deli">Deliver Here</button>
+                <button className="deli"><Link to='/Payment'>Deliver Here</Link></button>
                 <hr />
                 <h3>Add a new address</h3>
                 <Form handleAddress={handleAddress}></Form>

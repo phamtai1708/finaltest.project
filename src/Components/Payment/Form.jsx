@@ -1,5 +1,6 @@
 import { useFormik } from "formik";
 import './Form.css'
+import { Link } from "react-router-dom";
 
 const Form = (props) =>{
   const formik = useFormik({
@@ -60,7 +61,7 @@ const Form = (props) =>{
             />
             </div>
         </div>
-        <button>Add Card</button>
+        <button> <Link to='/Order_summary' >Add Card</Link> </button>
       </form>
     </div>
   );

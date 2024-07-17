@@ -15,6 +15,7 @@ import Register from './Register/Register.jsx'
 import Search from './Search/Search.jsx'
 import Payment from './Payment Method/Payment.jsx'
 import Summary from './Order_summary/Summary.jsx'
+import { Link } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ProductProvider>

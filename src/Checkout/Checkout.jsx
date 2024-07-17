@@ -6,6 +6,7 @@ import List from "../Components/Checkout/List";
 import Cashier from "../Components/Cashier/Cashier";
 import { useContext } from "react";
 import { ProductContext } from "../Components/ProductProvider";
+import { Link } from "react-router-dom";
 
 const Checkout = () =>{
 
@@ -28,7 +29,7 @@ const Checkout = () =>{
                 </div>
                 <div className="cashier_wrap">
                     <Cashier></Cashier>
-                    <button>Proceed to checkout</button>
+                    <button><Link to='/Shipping_address'>Proceed to checkout</Link></button>
                 </div>
                 
             </div>
